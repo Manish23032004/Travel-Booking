@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Kanit:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container3{
+    font-family: 'poppins', sans-serif;
+    background-color: aliceblue;
+    background-size: cover;
+    height:100vh;
+
+}
+.container3 h1{
+    padding-left: 650px;
+    padding-top: 20px;
+}
+.container3 img{
+    padding-left: 150px;
+    height:650px;
+    padding-top: 20px;
+}
+.inputbox{
+      width: 300px;
+        height: 450px;
+        filter: blur(-1px);
+        position: center;
+        border-radius: 10px;
+        border-color:#ffa500 ;
+         
+        margin-left: 800px;
+        margin-top: -550px;
+        box-shadow: 8px 8px 8px 8px;
+       padding-left: 50px;
+       padding-top: 10px;
+   
+}
+.inputbox input{
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    background-color: transparent;
+    
+}
+
+
+.inputbox  .btn{
+    padding-left:10px ;
+    padding-top: 20px;
+
+
+}
+.inputbox  .btn input{
+    width: 80px;
+    height: 25px;
+    background-color: #ffa500;
+ 
+}
+input:hover{
+    border-color: #ffa500;
+}
+.btn input:hover{
+    font-style: italic;
+}

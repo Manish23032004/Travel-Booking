@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Kanit:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------Header part start ----------*/
+.logo {
+    float: left;
+    color: rgb(221, 223, 226);
+    font-size: 40px;
+    padding-left: 40px;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
+    
+
+}
+
+nav {
+    height: 50px;
+    background-color:  rgb(22, 72, 102);
+    line-height: 50px;
+}
+
+nav ul {
+    float: right;
+    padding-right: 90px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav li a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+    cursor: default;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    
+}
+nav a {
+    cursor: default;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    
+}
+
+
+nav ul a {
+    float: right;
+    color: white;
+    padding-right: 10px;
+}
+/* --------------Header part end-----------------*/
+
+
+.container {
+    font-family: 'poppins', sans-serif;
+    background-image: url(/image/4057424.webp);
+    backface-visibility: initial;
+    background-size: cover;
+    height: 93vh;
+
+}
+
+.container h1{
+    padding-left: 650px;
+    padding-top: 120px;
+    color: #ffa500;
+    font-size: 50px;
+     font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.container h2{
+    padding-left:540px;
+    color:white;
+    font-size: 40px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    
+
+}
+
+.container p{
+    padding-left: 560px;
+    color: #ffa500;
+
+}
+.container p span{
+   margin-left: -50px;
+   color: #ffa500;
+}
+.search{
+    padding-left: 250px;
+    padding-top: 200px;
+  
+     
+}
+.search input{
+    width: 1000px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:transparent;
+    border-width: 2px;
+    border-color: aliceblue;
+    color: white;
+    font-size: 15px; 
+     
+}
+.search input:hover{
+    border-color: #ffa500;
+}
+.search .btn{
+     width: 80px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#ffa500 ;
+    border-color: aliceblue;
+}
+.search .btn:hover{
+    font-style: italic;
+}
+ 
+
+@media  screen and (max-width:414px) {
+    .container{
+        display: block;
+    }
+
+    
+}
+
+/* KEYFRAME ANMATION */
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+  

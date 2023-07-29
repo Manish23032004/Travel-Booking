@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Kanit:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container5 {
+    font-family: 'poppins', sans-serif;
+    /* background-image: url(/image/552483.jpg); */
+    background-color: aliceblue;
+    background-size: cover;
+    height: 100vh;
+     
+}
+.container5 h1{
+    padding-left: 700px;
+    padding-top: 10px;
+}
+.service{
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.service i{
+    font-size: 80px;
+    padding-left: 140px;
+}
+.service   h2{
+    padding-left: 90px;
+}
+
+
+.service   p span{
+    padding-left: 50px;
+}
+.container5 .service1{
+    padding-left: 650px;
+    margin-top: -150px;
+}
+
+ 
+
+.service1 i{
+    font-size: 80px;
+    padding-left: 80px;
+}
+.service1   h2{
+    padding-left: 50px;
+}
+.service1  p span{
+    padding-left: 60px;
+}
+
+.container5 .service2{
+    padding-left: 1150px;
+    margin-top: -150px;
+}
+
+ 
+
+.service2 i{
+    font-size: 80px;
+    padding-left: 140px;
+}
+.service2   h2{
+    padding-left: 100px;
+}
+
+.service2  p span{
+    padding-left: 60px;
+}
+
+
+.service3{
+    padding-left: 50px;
+    padding-top: 150px;
+
+}
+ 
+
+.service3 i{
+    font-size: 80px;
+    padding-left: 120px;
+}
+.service3  h2{
+    padding-left: 80px;
+}
+
+.service3  p span{
+    padding-left: 60px;
+}
+ 
+
+
+.service4{
+    padding-left: 650px;
+   margin-top: -170px;
+
+}
+
+ 
+
+.service4 i{
+    font-size: 80px;
+    padding-left: 100px;
+}
+.service4   h2{
+    padding-left: 50px;
+}
+
+.service4  p span{
+    padding-left: 50px;
+}
+
+
+.service5{
+    padding-left: 1150px;
+    margin-top: -170px;
+
+}
+
+  
+
+.service5 i{
+    font-size: 80px;
+    padding-left: 140px;
+}
+.service5   h2{
+    padding-left: 100px;
+}
+.service5  p span{
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style/login.css">
+</head>
+
+<body>
+    <div class="container7">
+        <h1>Login</h1>
+        <div class="inputbox">
+            <form action="/login" name="Formfill" onsubmit="return validation()">
+                <p id="result">Head</p><br>
+                <span>*</span> username:<br><input type="text"  name="username" ><br><br>
+                <span>*</span> Password:<br><input type="password"  name="password" placeholder="Enter your password"><br><br>
+                 <button type="submit" class="btn">Login</button> 
+
+            </form>
+        </div>
+    </div>
+
+
+
+    <script>
+        function validation(){
+      if(document.Formfill.username.value==""){
+        document.getElementById("result").innerHTML="Enter user name*";
+        return false;
+      }
+      else if(document.Formfill.username.value.length<6){
+        document.getElementById("result").innerHTML="Enter six characters*";
+        return false;
+
+        
+      }
+      else if(document.Formfill.password.value==""){
+        document.getElementById("result").innerHTML="Enter your password*";
+        return false;
+      }
+
+      else if(document.Formfill.password.value.length<6){
+        document.getElementById("result").innnerHTML="password must be 6-digit*";
+        return false;
+
+        
+      }
+    }
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

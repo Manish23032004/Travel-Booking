@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet"  href="/style/signup.css">
+</head>
+<body>
+  <div class="container6">
+    <h2>Sign Up</h2>
+    <div class="inputbox"> 
+    <form action="/signup"  method="post" name="Formfill"  onsubmit="return validation()"><br><br>
+      <p id="result"></p><br><br>
+       
+       
+      <span>*</span> Name:<br><input type="text"   name="username"><br><br>
+     
+         
+      <span>*</span> Email:<br> <input type="email1"   name="email"><br><br>
+    
+         
+      <span>*</span> Password:<br> <input type="password"   name="password"><br><br>
+       
+         
+      <span>*</span> Comfirm Password:<br><input type="password"   name="cpassword"><br><br>
+       
+      <button type="submit" class="btn">Sign Up</button> 
+      <button type="reset" class="btn1">Reset</button><br><br>
+
+      <a href="/login">Login your account ? </a>
+    </form>
+  </div>
+   
+  
+  
+  
+  
+  
+  
+  <script>
+    function validation(){
+      if(document.Formfill.username.value==""){
+        document.getElementById("result").innerHTML="Enter user name*";
+        return false;
+      }
+      else if(document.Formfill.username.value.length<6){
+        document.getElementById("result").innerHTML="Enter six characters*";
+        return false;
+
+        
+      }
+      else if(document.Formfill.email.value==""){
+        document.getElementById("result").innerHTML="Enter your email*";
+        return false;
+      }
+      else if(document.Formfill.password.value==""){
+        document.getElementById("result").innerHTML="Enter your password*";
+        return false;
+      }
+
+      else if(document.Formfill.password.value.length<6){
+        document.getElementById("result").innnerHTML="password must be 6-digit*";
+        return false;
+
+        
+      }
+
+      else if(document.Formfill.password.value!==document.Formfill.cpassword.value ){
+        document.getElementById("result").innerHTML="password dose not match*";
+        return false;
+      }
+
+      else if(document.Formfill.cpassword.value==""){
+        document.getElementById("result").innerHTML="Enter your comfirm password*";
+        return false;
+      }
+     
+    }
+  </script>
+
+  
+  
+  
+ 
+</body>
+</html>

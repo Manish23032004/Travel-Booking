@@ -1,0 +1,78 @@
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Kanit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container4 {
+    font-family: 'poppins', sans-serif;
+   background-color: aliceblue;
+    background-size: cover;
+    height: 100vh;
+    display: block;
+    color: rgb(10, 11, 12);
+
+}
+
+.container4  h1 {
+    padding-left: 650px;
+    padding-top: 20px;
+}
+
+ 
+
+.inputbox {
+    padding-left: 420px;
+    padding-top: 150px;
+    word-spacing: 50px;
+    
+    
+}
+
+.inputbox input {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 5vh;
+    width:280px;
+    border-width: 2px;
+    color: rgb(12, 13, 14);
+    font-size: 1rem;
+
+
+}
+.inputbox .textarea-field textarea {
+    padding: 10px;
+    border-radius:10px;
+    background-color: transparent;
+    height: 250px;
+    width:650px;
+    color: rgb(11, 12, 13);
+    border-width: 2px;
+    font-size: 1rem;
+
+
+
+}
+.inputbox :hover{
+    border-color:#ffa500;
+}
+.btn{
+    padding-left: 180px;
+    background-color: transparent;
+    width: 400px;
+    word-spacing: 50px;
+    color: aliceblue;
+   
+}
+.btn input {
+    background-color: transparent;
+    width:100px;
+     background-color: #ffa500;
+}
+.btn :hover{
+    font-style: italic;
+}

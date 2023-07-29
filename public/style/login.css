@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.container7{
+    height: 100vh;
+    background-color: aliceblue;
+    background-size: cover;
+    display: block;
+   
+   
+    background-image: url(/image/4057424.webp);
+}
+.container7 h1{
+    padding-left: 700px;
+    padding-top: 20px;
+}
+.inputbox{
+      
+    box-shadow: 5px 5px 5px 5px;
+    width: 350px;
+    height: 240px;
+    margin-left: 550px;
+    margin-top: 100px;
+    padding-left: 50px;
+    color: aliceblue;
+    padding-top: 45px;
+    border-radius: 10px;
+    font-size: 18PX;
+   
+   
+
+  }
+  .inputbox span{
+    color: red;
+  }
+  .inputbox p{
+    color: red;
+    margin-top: 2px;
+  }
+  
+   
+  .inputbox input{
+    border-radius: 5px;
+    height: 25px;
+    width: 250px;
+    color: aliceblue;
+    background-color: transparent;
+  }
+
+  .inputbox .btn{
+    border-radius: 5px;
+    padding: 4px 4px;
+
+  }
+
+  input:hover{
+    border-color: #ffa500;
+  }
+  .inputbox .btn:hover{
+    border-color: #ffa500;
+    font-style: italic;
+  }
